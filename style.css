@@ -25,11 +25,16 @@ nav{
 
 
 }
+a{    color: white;
+    text-decoration: none;
+}
+
 
 .nav li{
     padding: 0 20px;
     font-size: 18px;
     text-decoration: none;
+    list-style-type: none;
 
 }
 
