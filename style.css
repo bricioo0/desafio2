@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(223,225,236);
+    background: radial-gradient(circle, rgba(223,225,236,1) 0%, rgba(116,110,111,1) 100%);
 }
 
 nav{
@@ -43,6 +45,7 @@ a{    color: white;
     margin: 0 auto;
     animation: fadein 2s ease-in;
     
+    
 }
 
 #container h1 {
@@ -56,6 +59,10 @@ a{    color: white;
 }
 
 #container img {
+    border: 5px solid rgba(255, 255, 255, 0.5); /* Borde blanco con 50% de transparencia */
+    border-radius: 15px; /* Radio del borde */
+           
+            
     width: 30%;
     margin: 1.4%;
     transition: transform 0.3s ease-in-out;
